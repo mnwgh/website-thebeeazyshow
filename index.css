@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "MarkerFelt";
+    src: url(/fonts/MarkerFelt.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+
+* {
+    font-family: 'MarkerFelt';
+    /*background-color: gray;*/
+    box-sizing: border-box;
+}
+
+.home__logo {
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    /*z-index: 1;*/
+}
+
+.mission__statement {
+    font-family: 'Tajawal';
+    text-align: center;
+    font-size: 40px;
+    padding-top: 30px;
+    width: 600px;
+    display: block;
+    margin-inline: auto;
+}
+
+.latest__episode {
+    display: block;
+    max-width: fit-content;
+    margin-inline: auto;
+    text-align: center;
+}
+
+.latest__episode h2 {
+    text-align: center;
+    font-size: 60px;
+}

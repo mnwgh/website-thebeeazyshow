@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "MarkerFelt";
+    src: url(/fonts/MarkerFelt.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+
+* {
+    font-family: 'MarkerFelt';
+    /*background-color: gray;*/
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+p {
+    font-family: 'Tajawal';
+    font-weight: 700;
+    text-align: center;
+    width: 1000px;
+    margin-inline: auto;
+}
+
+.hosts__container {
+    display: block;
+    max-width: fit-content;
+    margin-inline: auto;
+}
+
+.profile p {
+    width: 400px;
+}
+
+.profiles__container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.profile {
+    float: left;
+    width: 45%;
+    margin-bottom: 16px;
+    padding: 20px;
+}

@@ -1,0 +1,16 @@
+.footer {
+    display: block;
+    max-width: fit-content;
+    margin-inline: auto;
+}
+.fa-spotify, .fa-instagram, .fa-podcast, .fa-tiktok, .fa-youtube, .fa-envelope {
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    margin-top: 20px;
+    margin-inline: 10px;
+}
+
+.fa-spotify:hover, .fa-instagram:hover, .fa-podcast:hover, .fa-tiktok:hover, .fa-youtube:hover, .fa-envelope:hover {
+    color: orange;
+}
